@@ -1,0 +1,22 @@
+package text666;
+import java.util.Scanner;
+
+public class Text666 {
+	public static void main(String[] args) {
+		Scanner k=new Scanner(System.in);
+		int y,x;
+		System.out.print("请输入x的值：");
+		x=k.nextInt();
+		if(x>0) {
+			y=x+3;
+		}
+		else if(x==0) {
+			y=0;
+		}
+		else {
+			y=x*x-1;
+		}
+		System.out.println("y值为："+y);	
+		k.close();
+	}
+}
